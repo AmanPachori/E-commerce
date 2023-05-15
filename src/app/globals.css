@@ -6,3 +6,26 @@
 :root {
   font-family: "Lora", serif !important;
 }
+/* .coursel {
+  height: 65vh !important;
+}
+
+@media (min-width: 768px) {
+  .coursel {
+    height: 65vh !important;
+  }
+} */
+.imageCover-container {
+  width: 100%;
+
+  > div {
+    position: unset !important;
+  }
+
+  .imageCover {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
