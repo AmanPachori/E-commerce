@@ -1,9 +1,8 @@
-import Image from "next/image";
-
+import { Navbar } from "@/components";
 export default function Home() {
   return (
     <div>
-      <h1> E-commerce</h1>
+      <Navbar />
     </div>
   );
 }
