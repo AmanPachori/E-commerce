@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import Image from "next/legacy/image";
 
@@ -8,7 +7,6 @@ import Image2 from "../../Garden360Images/SlidingBannerImage2.png";
 const images = [Image1, Image2];
 const index = () => {
   const [currentImage, setCurrentImage] = useState(0);
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
