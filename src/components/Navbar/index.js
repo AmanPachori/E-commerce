@@ -151,7 +151,7 @@ const Index = () => {
                     </button>
                     {isOpen1 && (
                       <div
-                        className="absolute origin-top right-0.5 ml-2 w-56 space-y-2 mt-2.5 bg-white border border-gray-200 font-normal shadow-lg"
+                        className="absolute origin-top right-0.5 ml-2 w-56 space-y-2 mt-2.5 bg-white z-10 border border-gray-200 font-normal shadow-lg"
                         onClick={toggleDropdown}
                       >
                         <button className=" w-full px-4 py-2 hover:bg-gray-100 flex font-semibold">
