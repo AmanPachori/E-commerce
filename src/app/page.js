@@ -1,9 +1,11 @@
 import {
+  ContactUs,
   Coursel,
   Gardening,
   GardeningEssential,
   Navbar,
   TypesOfGardern,
+  Footer,
 } from "@/components";
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Gardening />
       <GardeningEssential />
       <TypesOfGardern />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
