@@ -1,21 +1,10 @@
-import {
-  ContactUs,
-  Coursel,
-  Gardening,
-  GardeningEssential,
-  Navbar,
-  TypesOfGardern,
-  Footer,
-} from "@/components";
-export default function Home() {
+import { Navbar, Footer } from "@/components";
+import Homepage from "./Home";
+export default function Main() {
   return (
     <div>
       <Navbar />
-      <Coursel />
-      <Gardening />
-      <GardeningEssential />
-      <TypesOfGardern />
-      <ContactUs />
+      <Homepage />
       <Footer />
     </div>
   );
