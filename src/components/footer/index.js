@@ -66,15 +66,15 @@ const index = () => {
           <h3 className="font-semibold">Follow Us</h3>
           <div className="flex my-3">
             <img
-              width="40"
-              height="40"
+              width="30"
+              height="30"
               className="mr-2"
               src="https://img.icons8.com/ios/50/facebook--v1.png"
               alt="facebook--v1"
             />
             <img
-              width="40"
-              height="40"
+              width="30"
+              height="30"
               className="mr-2"
               src="https://img.icons8.com/ios/50/instagram-new--v1.png"
               alt="instagram-new--v1"
@@ -86,6 +86,53 @@ const index = () => {
           </button>
         </div>
         <div></div>
+      </div>
+      <div className="md:px-12 mt-3 flex justify-between">
+        <p className=" text-gray-500 mt-4 ">©2022 Garden360</p>
+        <div className="flex items-center">
+          <h3 className="text-black mt-4 pr-3">Our payment partner : </h3>
+
+          <div className="flex justify-center items-center mt-4">
+            <div className="grid grid-cols-7 gap-4 items-center">
+              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+                <img
+                  src="https://img.icons8.com/color/27/phone-pe.png"
+                  alt="Payment Partner 1"
+                />
+              </div>
+              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+                <img
+                  src="https://img.icons8.com/color/27/google-pay-india.png"
+                  alt="Payment Partner 1"
+                />
+              </div>
+              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+                <img
+                  src="https://img.icons8.com/color/27/000000/rupay.png"
+                  alt="Payment Partner 1"
+                />
+              </div>
+              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+                <img
+                  src="https://img.icons8.com/color/27/visa.png"
+                  alt="Payment Partner 1"
+                />
+              </div>
+              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+                <img
+                  src="https://img.icons8.com/color/27/mastercard.png"
+                  alt="Payment Partner 1"
+                />
+              </div>
+              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+                <img
+                  src="https://img.icons8.com/color/27/bhim.png"
+                  alt="Payment Partner 1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );
