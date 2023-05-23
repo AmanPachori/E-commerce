@@ -21,7 +21,7 @@ const index = () => {
       className="relative coursel border overflow-hidden"
       style={{ height: "65vh" }}
     >
-      <div className="flex transition-transform duration-300 ease-in-out transform-translate-x-full">
+      <div className="flex transition-transform duration-500 ease-in-out transform-translate-x-full">
         {images.map((image, index) => (
           <div
             key={index}
