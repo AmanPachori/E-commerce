@@ -81,9 +81,13 @@ const index = () => {
             />
           </div>
 
-          <button className="bg-green-500 text-white py-2 px-4 ">
+          <a
+            href="https://api.whatsapp.com/send?phone=919306308583&text=Hello%20Garden360!%0AI%20want%20to%20order%201%20Areca%20Palm%0A%F0%9F%91%89%20undefined/170033/888409&source=&data="
+            target="_blank"
+            className="bg-green-500 text-white py-2 px-4 "
+          >
             Chat on WhatsApp
-          </button>
+          </a>
         </div>
         <div></div>
       </div>
