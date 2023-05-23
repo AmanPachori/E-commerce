@@ -6,12 +6,20 @@ const index = () => {
     <div className="flex p-5 my-3 h-75vh">
       {/* Left Section */}
       <div className="flex-1 flex flex-col justify-center items-center  p-8">
-        <a href="#" className="text-center text-[34px]  mb-5">
+        <a
+          href="https://docs.google.com/forms/d/1IldDYr7J7y-ib8rD39KZeWKG39Qa_-Y1slSGe6R-qk4/viewform?edit_requested=true"
+          target="_blank"
+          className="text-center text-[34px]  mb-5"
+        >
           Book a Gardener.
         </a>
-        <button className="border border-green-600 px-4 py-3 text-green-500 font-semibold mt-5">
+        <a
+          href="https://docs.google.com/forms/d/1IldDYr7J7y-ib8rD39KZeWKG39Qa_-Y1slSGe6R-qk4/viewform?edit_requested=true"
+          target="_blank"
+          className="border border-green-600 px-4 py-3 text-green-500 font-semibold mt-5"
+        >
           Book Now !!
-        </button>
+        </a>
       </div>
 
       {/* Right Section */}
