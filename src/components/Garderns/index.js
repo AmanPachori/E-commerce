@@ -15,69 +15,74 @@ const index = () => {
         We Can Design & Setup Your Dream Garden
       </h2>
       <div>
-        <div className="">
-          <Image
-            src={indoor}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
-        <div className="">
-          <Image
-            src={outdoor}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
-        <div className="">
-          <Image
-            src={vertical}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
-        <div className="">
-          <Image
-            src={balcony}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
-        <div className="">
-          <Image
-            src={terrance}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
-        <div className="">
-          <Image
-            src={office}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
-        <div className="">
-          <Image
-            src={landscape}
-            alt="Image 1"
-            className="rounded-md"
-            width={1920}
-            height={650}
-          />
-        </div>
+        <a
+          href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+          target="_blank"
+        >
+          <div className="">
+            <Image
+              src={indoor}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+          <div className="">
+            <Image
+              src={outdoor}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+          <div className="">
+            <Image
+              src={vertical}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+          <div className="">
+            <Image
+              src={balcony}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+          <div className="">
+            <Image
+              src={terrance}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+          <div className="">
+            <Image
+              src={office}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+          <div className="">
+            <Image
+              src={landscape}
+              alt="Image 1"
+              className="rounded-md"
+              width={1920}
+              height={650}
+            />
+          </div>
+        </a>
       </div>
     </div>
   );
