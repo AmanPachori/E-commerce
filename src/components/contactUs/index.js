@@ -23,7 +23,7 @@ const index = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[#dde4d8] p-3 mt-3 flex items-center justify-center">
+      {/* <div className="bg-[#dde4d8] p-3 mt-3 flex items-center justify-center">
         <div className="font-semibold p-3 text-xl ">
           Get our app and shop on-the-go
         </div>
@@ -32,7 +32,7 @@ const index = () => {
             Get app
           </button>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
