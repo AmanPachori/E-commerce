@@ -20,12 +20,12 @@ const Index = () => {
       <nav className="bg-white font-sans shadow-lg max-w-screen-l  ">
         <div className="max-w-screen-l flex    items-center justify-between mx-auto px-5 py-2">
           <div className="flex items-center my-auto w-50  ">
-            <a href="#" className="flex items-center my-auto w-50  ">
+            <a href="/" className="flex items-center my-auto w-50  ">
               <div className="h-8 mr-3">
                 <Image
                   src={LogoWhite}
-                  width={40}
-                  height={40}
+                  width={60}
+                  height={60}
                   alt="Flowbite Logo"
                 />
               </div>
