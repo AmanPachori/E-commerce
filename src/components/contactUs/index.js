@@ -1,6 +1,6 @@
 import React from "react";
 
-const index = () => {
+const Index = () => {
   return (
     <>
       <div className="flex items-center  justify-center ">
@@ -39,4 +39,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

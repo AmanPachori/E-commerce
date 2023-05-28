@@ -5,7 +5,7 @@ import Image from "next/legacy/image";
 import { Footer, Navbar } from "@/components";
 import seed from "../../Garden360Images/seed.jpeg";
 
-const page = () => {
+const Page = () => {
   const [quantity, setQuantity] = useState(1);
 
   const handleDecrease = () => {
@@ -107,4 +107,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

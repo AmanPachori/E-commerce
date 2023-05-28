@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/legacy/image";
 import Gardner from "../../Garden360Images/GardenerImage.jpg";
-const index = () => {
+const Index = () => {
   return (
     <div className="flex p-5 my-3 h-75vh">
       {/* Left Section */}
@@ -35,4 +35,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

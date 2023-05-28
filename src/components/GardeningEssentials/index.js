@@ -4,7 +4,7 @@ import soil from "../../Garden360Images/soil.png";
 import manuers from "../../Garden360Images/manure.png";
 import Bio from "../../Garden360Images/Bio.png";
 import tool from "../../Garden360Images/tool.png";
-const index = () => {
+const Index = () => {
   return (
     <div className="p-5">
       <h1 className="text-center text-2xl font-bold mb-8">
@@ -64,4 +64,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

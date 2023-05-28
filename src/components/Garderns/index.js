@@ -8,7 +8,7 @@ import landscape from "../../Garden360Images/Landscaping.png";
 import office from "../../Garden360Images/OfficeGarden.png";
 import terrance from "../../Garden360Images/TerraceGarden.png";
 import "../../app/globals.css";
-const index = () => {
+const Index = () => {
   return (
     <div className="text-center py-5 my-5">
       <h2 className="text-2xl font-semibold my-5 p-5">
@@ -88,4 +88,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

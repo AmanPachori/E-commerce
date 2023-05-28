@@ -5,7 +5,7 @@ import Image from "next/legacy/image";
 import Image1 from "../../Garden360Images/SlidingBannerImage1.png";
 import Image2 from "../../Garden360Images/SlidingBannerImage2.png";
 const images = [Image1, Image2];
-const index = () => {
+const Index = () => {
   const [currentImage, setCurrentImage] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -43,4 +43,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

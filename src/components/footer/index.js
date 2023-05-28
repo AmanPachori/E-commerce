@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/legacy/image";
 import logo from "../../Garden360Images/LogoWhiteBG.png";
 
-const index = () => {
+const Index = () => {
   return (
     <footer className="bg-gray-100 py-8">
       <div className="flex flex-col md:flex-row justify-center md:justify-between  md:px-12">
@@ -148,4 +148,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
