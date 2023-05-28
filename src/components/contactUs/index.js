@@ -3,36 +3,38 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <div className="relative p-5 my-5 mx-auto items-center w-3/4 border rounded-sm">
-        <h2 className="text-left text-4xl mb-5 font-bold ">Contact Us</h2>
-        <div className="flex space-x-4 my-5 ">
-          <input
-            type="text"
-            placeholder="Phone Number*"
-            className="w-1/2 p-3 border rounded-sm border-gray-300 "
-          />
-          <input
-            type="text"
-            placeholder="Full Name"
-            className="w-1/2 p-3 border rounded-sm border-gray-300 "
-          />
-        </div>
-        <div className="text-right mt-4">
-          <button className="px-4  text-xl font-semibold py-2 bg-[#689238] text-white rounded-sm ">
-            Submit
-          </button>
+      <div className="flex items-center  justify-center ">
+        <div className="shadow-lg rounded-lg p-5 w-90 my-5  mx-auto">
+          <h2 className="text-center text-2xl mb-5 font-bold ">Contact Us</h2>
+          <div className="flex my-3 justify-center items-center text-center w-[40rem]">
+            <div className=" m-2 p-3 w-1/2 bg-gray-100 rounded ">
+              <div className="w-full flex items-center justify-center">
+                <img
+                  src="https://img.icons8.com/ios/30/new-post--v1.png"
+                  alt="new-post--v1"
+                  className=""
+                />
+              </div>
+              <span> greenloverscare@gmail.com</span>
+            </div>
+            <div className="m-2 p-3 w-1/2 bg-gray-100 rounded ">
+              <a
+                href="https://api.whatsapp.com/send?phone=919306308583&text=&source=&data="
+                target="_blank"
+              >
+                <div className="w-full flex items-center justify-center">
+                  <img
+                    src="https://img.icons8.com/ios/30/whatsapp--v1.png"
+                    alt="new-post--v1"
+                    className=""
+                  />
+                </div>
+              </a>
+              <span>9306308583</span>
+            </div>
+          </div>
         </div>
       </div>
-      {/* <div className="bg-[#dde4d8] p-3 mt-3 flex items-center justify-center">
-        <div className="font-semibold p-3 text-xl ">
-          Get our app and shop on-the-go
-        </div>
-        <div>
-          <button className="px-4  text-xl font-semibold py-2 bg-[#689238] text-white rounded">
-            Get app
-          </button>
-        </div>
-      </div> */}
     </>
   );
 };
