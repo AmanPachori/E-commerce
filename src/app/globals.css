@@ -21,3 +21,13 @@ body {
     height: unset !important;
   }
 }
+
+.coursel {
+  height: 65vh;
+}
+
+@media (max-width: 768px) {
+  .coursel {
+    height: 30vh;
+  }
+}
