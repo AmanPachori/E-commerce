@@ -149,7 +149,7 @@ export default function Page({ params }) {
         <h1 className="text-center py-3  font-bold text-3xl ">{head}</h1>
         <p
           style={{ whiteSpace: "pre-line" }}
-          className="py-2 font-medium text-xl"
+          className="py-2 px-3 font-medium text-lg md:text-xl"
         >
           {" "}
           {body}
