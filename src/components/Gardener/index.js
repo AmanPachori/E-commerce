@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 import Gardner from "../../Garden360Images/GardenerImage.jpg";
 const Index = () => {
   return (
-    <div className="flex p-5 my-3 h-75vh">
+    <div className="flex p-5 my-3 h-75vh flex-col justify-center items-center text-center sm:flex-row sm:justify-between">
       {/* Left Section */}
       <div className="flex-1 flex flex-col justify-center items-center  p-8">
         <a
