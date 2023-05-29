@@ -17,15 +17,12 @@ const Index = () => {
     };
   }, []);
   return (
-    <div
-      className="relative coursel border overflow-hidden"
-      style={{ height: "65vh" }}
-    >
+    <div className="relative coursel border overflow-hidden">
       <div className="flex transition-transform duration-500 ease-in-out transform-translate-x-full">
         {images.map((image, index) => (
           <div
             key={index}
-            className={` h-full ${
+            className={`w-full ${
               index === currentImage ? "translate-x-0" : ""
             } animate-slide`}
           >
@@ -34,7 +31,7 @@ const Index = () => {
               layout="fill"
               objectFit="cover"
               objectPosition="center"
-              className="absolute inset-0 w-full h-full"
+              className="absolute resposive inset-0 w-full h-full"
             />
           </div>
         ))}
