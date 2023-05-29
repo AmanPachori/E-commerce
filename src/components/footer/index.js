@@ -5,7 +5,7 @@ import logo from "../../Garden360Images/LogoWhiteBG.png";
 const Index = () => {
   return (
     <footer className="bg-gray-100 py-8">
-      <div className="flex flex-col md:flex-row justify-center md:justify-between  md:px-12">
+      <div className="flex flex-col md:flex-row justify-center md:justify-between md:px-12">
         {/* First Div */}
         <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
           <Image
@@ -15,7 +15,7 @@ const Index = () => {
             width={80}
             height={80}
           />
-          <div className="mt-2 flex flex-col">
+          <div className="mt-2 flex flex-col md:text-left text-center">
             <a className="text-sm my-1 text-gray-500">
               greenloverscare@gmail.com
             </a>
@@ -27,7 +27,7 @@ const Index = () => {
         </div>
 
         {/* Second Div */}
-        <div className="md:text-left mb-4 md:mb-0 h-full">
+        <div className="md:text-left text-center mb-4 md:mb-0 h-full">
           <h3 className="font-semibold">Store info</h3>
           <div className="mt-3 flex flex-col">
             <a
@@ -46,7 +46,7 @@ const Index = () => {
         </div>
 
         {/* Third Div */}
-        <div className=" md:text-left mb-4 md:mb-0">
+        <div className="md:text-left text-center mb-4 md:mb-0">
           <h3 className="font-semibold text-black">Policies</h3>
           <ul className="text-gray-500 mt-3">
             <li className="text-sm mb-2 ">
@@ -97,44 +97,46 @@ const Index = () => {
         </div>
         <div></div>
       </div>
-      <div className="md:px-12 mt-3 flex justify-between">
-        <p className=" text-gray-500 mt-4 ">©2022 Garden360</p>
+      <div className="md:px-12 mt-3 flex flex-col justify-center items-center text-center sm:flex-row sm:justify-between">
+        <div>
+          <p className="text-gray-500 mt-4 ">©2022 Garden360</p>
+        </div>
         <div className="flex items-center">
           <h3 className="text-black mt-4 pr-3">Our payment partner : </h3>
 
           <div className="flex justify-center items-center mt-4">
-            <div className="grid grid-cols-7 gap-4 items-center">
-              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 items-center">
+              <div className="bg-white px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/phone-pe.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/google-pay-india.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/000000/rupay.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/visa.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/mastercard.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="col-span-1 bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/bhim.png"
                   alt="Payment Partner 1"
