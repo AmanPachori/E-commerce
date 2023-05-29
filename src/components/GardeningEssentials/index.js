@@ -10,7 +10,7 @@ const Index = () => {
       <h1 className="text-center text-2xl font-bold mb-8">
         Gardening Essentials
       </h1>
-      <div className="flex justify-center">
+      <div className="flex flex-col justify-center items-center text-center sm:flex-row sm:justify-between">
         <div className="flex flex-col rounded-lg  border items-center m-3">
           <Image
             src={manuers}
