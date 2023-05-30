@@ -46,7 +46,7 @@ const Index = () => {
         </div>
 
         {/* Third Div */}
-        <div className="md:text-left text-center mb-4 md:mb-0">
+        <div className="md:text-left  text-center mb-4 md:mb-0">
           <h3 className="font-semibold text-black">Policies</h3>
           <ul className="text-gray-500 mt-3">
             <li className="text-sm mb-2 ">
@@ -102,41 +102,43 @@ const Index = () => {
           <p className="text-gray-500 mt-4 ">©2022 Garden360</p>
         </div>
         <div className="flex items-center">
-          <h3 className="text-black mt-4 pr-3">Our payment partner : </h3>
+          <h3 className="text-black md:text-md text-xs mt-4 pr-3">
+            Our payment partner :{" "}
+          </h3>
 
           <div className="flex justify-center items-center mt-4">
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 items-center">
-              <div className="bg-white px-2 py-0.5 rounded">
+            <div className="grid grid-cols-6 gap-3 items-center">
+              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/phone-pe.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/google-pay-india.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/000000/rupay.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/visa.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/mastercard.png"
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="bg-white px-2 py-0.5 rounded">
+              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/bhim.png"
                   alt="Payment Partner 1"
