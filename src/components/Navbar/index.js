@@ -28,7 +28,7 @@ const Index = () => {
           <div className="flex justify-between">
             <div className="flex items-center">
               <a href="/" className="flex items-center my-auto w-50  ">
-                <div className="h-8 mr-3">
+                <div className="h-[50] w-[50] mr-3 ">
                   <Image
                     src={LogoWhite}
                     width={50}
@@ -36,7 +36,7 @@ const Index = () => {
                     alt="Flowbite Logo"
                   />
                 </div>
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark mr-5 ">
+                <span className="my-auto self-center text-md md:text-2xl font-semibold whitespace-nowrap dark:text-dark mr-5 ">
                   Garden360
                 </span>
               </a>
