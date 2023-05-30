@@ -10,52 +10,52 @@ const Index = () => {
       <h1 className="text-center text-2xl font-bold mb-8">
         Gardening Essentials
       </h1>
-      <div className="flex flex-col justify-center items-center text-center sm:flex-row sm:justify-between">
-        <div className="flex flex-col rounded-lg  border items-center m-3">
+      <div className="grid grid-cols-4">
+        <div className="flex flex-col rounded-lg  border items-center m-1 md:m-3 h-[34]">
           <Image
             src={manuers}
             alt="Image 1"
-            width={400}
-            height={400}
+            width={440}
+            height={440}
             className="rounded-lg"
           />
-          <p className="text-center text-xl font-normal tracking-wide mt-2 p-3">
+          <p className="text-center text-xs md:text-xl md:font-normal md:tracking-wide mt-2 p-2 md:p-3">
             Manuers & Fertilzer
           </p>
         </div>
-        <div className="flex flex-col  border items-center m-3">
+        <div className="flex flex-col rounded-lg  border items-center m-1 md:m-3 h-[34]">
           <Image
             src={soil}
             alt="Image 1"
-            width={400}
-            height={400}
+            width={440}
+            height={440}
             className="rounded-lg"
           />
-          <p className="text-center text-xl font-normal tracking-wide mt-2 p-3">
+          <p className="text-center text-xs md:text-xl md:font-normal md:tracking-wide mt-2 p-2 md:p-3">
             Soil Mixes
           </p>
         </div>
-        <div className="flex flex-col  border items-center m-3">
+        <div className="flex flex-col rounded-lg  border items-center m-1 md:m-3 h-[34]">
           <Image
             src={tool}
             alt="Image 1"
-            width={400}
-            height={400}
+            width={440}
+            height={440}
             className="rounded-lg"
           />
-          <p className="text-center text-xl font-normal tracking-wide mt-2 p-3">
+          <p className="text-center text-xs md:text-xl md:font-normal md:tracking-wide mt-2 p-2 md:p-3">
             Tools & Equipment
           </p>
         </div>
-        <div className="flex flex-col  border items-center m-3">
+        <div className="flex flex-col rounded-lg  border items-center m-1 md:m-3 h-[34]">
           <Image
             src={Bio}
             alt="Image 1"
-            width={400}
-            height={400}
+            width={440}
+            height={440}
             className="rounded-lg"
           />
-          <p className="text-center text-xl font-normal tracking-wide mt-2 p-3">
+          <p className="text-center text-xs md:text-xl md:font-normal md:tracking-wide mt-2 p-2 md:p-3">
             Bio Pesticides
           </p>
         </div>
