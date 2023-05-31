@@ -7,7 +7,7 @@ import tool from "../../Garden360Images/tool.png";
 const Index = () => {
   return (
     <div className="p-5">
-      <h1 className="text-center text-2xl font-bold mb-8">
+      <h1 className="text-center text-2xl font-bold mb-5">
         Gardening Essentials
       </h1>
       <div className="grid grid-cols-4">
