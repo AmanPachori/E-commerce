@@ -19,7 +19,7 @@ const Index = () => {
             <a className="text-sm my-1 text-gray-500">
               greenloverscare@gmail.com
             </a>
-            <a className="text-sm my-1 text-gray-500">+9193066308583</a>
+            <a className="text-sm my-1 text-gray-500">+919306308583</a>
             <p className="text-sm my-1 text-gray-500">
               ABV-IIITM, Gwalior, Madhya Pradesh, 474015
             </p>
@@ -99,11 +99,11 @@ const Index = () => {
       </div>
       <div className="md:px-12 mt-3 flex flex-col justify-center items-center text-center sm:flex-row sm:justify-between">
         <div>
-          <p className="text-gray-500 mt-4 ">©2022 Garden360</p>
+          <p className="text-gray-500 mt-4 ">©2023 Garden360</p>
         </div>
         <div className="flex items-center">
           <h3 className="text-black md:text-md text-xs mt-4 pr-3">
-            Our payment partner :{" "}
+            Our payment partners :{" "}
           </h3>
 
           <div className="flex justify-center items-center mt-4">
@@ -132,12 +132,12 @@ const Index = () => {
                   alt="Payment Partner 1"
                 />
               </div>
-              <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
+              {/* <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/mastercard.png"
                   alt="Payment Partner 1"
                 />
-              </div>
+              </div> */}
               <div className="bg-white px-0.5 md:px-2 py-0.5 rounded">
                 <img
                   src="https://img.icons8.com/color/27/bhim.png"
