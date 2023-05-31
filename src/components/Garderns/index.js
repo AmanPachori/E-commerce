@@ -10,7 +10,7 @@ import terrance from "../../Garden360Images/TerraceGarden.png";
 import "../../app/globals.css";
 const Index = () => {
   return (
-    <div className="text-center py-5 my-5">
+    <div className="text-center pb-5 mb-5 ">
       <h2 className="text-2xl font-semibold my-5 p-5">
         We Can Design & Setup Your Dream Garden
       </h2>
