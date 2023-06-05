@@ -20,7 +20,7 @@ const Index = () => {
             className="rounded-lg"
           />
           <p className="text-center text-xs md:text-xl md:font-normal md:tracking-wide mt-2 p-2 md:p-3">
-            Manuers & Fertilzer
+            Manures & Fertilzers
           </p>
         </div>
         <div className="flex flex-col rounded-lg  border items-center m-1 md:m-3 h-[34]">
@@ -44,7 +44,7 @@ const Index = () => {
             className="rounded-lg"
           />
           <p className="text-center text-xs md:text-xl md:font-normal md:tracking-wide mt-2 p-2 md:p-3">
-            Tools & Equipment
+            Tools & Equipments
           </p>
         </div>
         <div className="flex flex-col rounded-lg  border items-center m-1 md:m-3 h-[34]">
