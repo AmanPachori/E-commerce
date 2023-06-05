@@ -3,7 +3,7 @@ import React from "react";
 const Index = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="shadow-lg rounded-lg p-5 my-5 mx-auto w-fit">
+      <div className="shadow-lg rounded-lg p-5 my-1 mx-auto w-fit">
         <h2 className="text-center text-2xl mb-5 font-bold">Contact Us</h2>
         <div className="flex flex-col my-3 justify-center items-center text-center sm:flex-row sm:justify-between">
           <div
