@@ -103,7 +103,7 @@ const Index = () => {
         </div>
         <div className="flex items-center">
           <h3 className="text-black md:text-md text-xs mt-4 pr-3">
-            Our payment partners :{" "}
+            Our payment partners:{" "}
           </h3>
 
           <div className="flex justify-center items-center mt-4">
