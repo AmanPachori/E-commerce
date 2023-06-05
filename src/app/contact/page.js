@@ -7,8 +7,8 @@ const page = () => {
       <Navbar />
 
       <div className="flex-1 bg-white">
-        <h1 className="text-center py-3  font-bold text-3xl">Contact Us </h1>
-        <div className="flex items-center justify-center ">
+        {/* <h1 className="text-center py-3  font-bold text-3xl">Contact Us </h1> */}
+        {/* <div className="flex items-center justify-center ">
           <form className="w-90 my-5  mx-auto shadow-lg rounded-lg p-5">
             <div className="flex space-x-4 my-5 ">
               <input
@@ -40,7 +40,7 @@ const page = () => {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <div className="flex items-center justify-center">
           <div className="shadow-lg rounded-lg p-5 my-5 mx-auto w-fit">
             <h2 className="text-center text-2xl mb-5 font-bold">Contact Us</h2>
