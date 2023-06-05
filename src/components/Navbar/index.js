@@ -43,11 +43,26 @@ const Index = () => {
             </div>
 
             <div className="hidden md:flex items-center">
-              <a href="/" className="px-4">
+              <a
+                href="https://docs.google.com/forms/d/1IldDYr7J7y-ib8rD39KZeWKG39Qa_-Y1slSGe6R-qk4/viewform?edit_requested=true"
+                target="_blank"
+                className="px-4"
+              >
                 Gardener
               </a>
-              <a href="/about" className=" px-4">
-                Garden setup
+              <a
+                href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+                target="_blank"
+                className=" px-4"
+              >
+                Kitchen Garden
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+                target="_blank"
+                className=" px-4"
+              >
+                Garden Setup
               </a>
               <span className="px-4">
                 <input
@@ -201,11 +216,26 @@ const Index = () => {
 
           {isDropdownOpen && (
             <div className="mt-4 md:hidden flex flex-col ">
-              <a href="/" className="px-4 my-2">
+              <a
+                href="https://docs.google.com/forms/d/1IldDYr7J7y-ib8rD39KZeWKG39Qa_-Y1slSGe6R-qk4/viewform?edit_requested=true"
+                target="_blank"
+                className="px-4 mb-2 mt-2"
+              >
                 Gardener
               </a>
-              <a href="/" className="my-2 px-4">
-                Garden setup
+              <a
+                href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+                target="_blank"
+                className=" px-4 mb-2"
+              >
+                Kitchen Garden
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+                target="_blank"
+                className=" px-4 mb-2"
+              >
+                Garden Setup
               </a>
               <span className="px-4 w-full my-2">
                 <input
