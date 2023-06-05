@@ -5,3 +5,4 @@ export { default as GardeningEssential } from "./GardeningEssentials";
 export { default as TypesOfGardern } from "./Garderns";
 export { default as ContactUs } from "./contactUs";
 export { default as Footer } from "./footer";
+export { default as Kitchen } from "./kitchen";
