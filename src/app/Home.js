@@ -3,6 +3,7 @@ import {
   Coursel,
   Gardening,
   GardeningEssential,
+  Kitchen,
   TypesOfGardern,
 } from "@/components";
 export default function Homepage() {
@@ -11,6 +12,7 @@ export default function Homepage() {
       <Coursel />
       <Gardening />
       <GardeningEssential />
+      <Kitchen />
       <TypesOfGardern />
       <ContactUs />
     </div>
