@@ -48,7 +48,7 @@ const Index = () => {
                 target="_blank"
                 className="px-4"
               >
-                Gardener
+                Book a Gardener
               </a>
               <a
                 href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
@@ -63,6 +63,13 @@ const Index = () => {
                 className=" px-4"
               >
                 Garden Setup
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+                target="_blank"
+                className=" px-4"
+              >
+                Landscaping
               </a>
               <span className="px-4">
                 <input
@@ -236,6 +243,13 @@ const Index = () => {
                 className=" px-4 mb-2"
               >
                 Garden Setup
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
+                target="_blank"
+                className=" px-4"
+              >
+                Landscaping
               </a>
               <span className="px-4 w-full my-2">
                 <input
