@@ -49,18 +49,6 @@ const page = () => {
                 style={{ width: "250px" }}
                 className="m-2 p-3 bg-gray-100 rounded w-250"
               >
-                <div className="flex items-center justify-center">
-                  <img
-                    src="https://img.icons8.com/ios/30/new-post--v1.png"
-                    alt="new-post--v1"
-                  />
-                </div>
-                <span className="mt-2">greenloverscare@gmail.com</span>
-              </div>
-              <div
-                style={{ width: "250px" }}
-                className="m-2 p-3 bg-gray-100 rounded w-250"
-              >
                 <a
                   href="https://api.whatsapp.com/send?phone=919306308583&text=&source=&data="
                   target="_blank"
@@ -74,6 +62,20 @@ const page = () => {
                   </div>
                 </a>
                 <span className="mt-2">9306308583</span>
+              </div>
+              <div
+                style={{ width: "250px" }}
+                className="m-2 p-3 bg-gray-100 rounded w-250"
+              >
+                <a href="mailto:greenloverscare@email.com">
+                  <div className="flex items-center justify-center">
+                    <img
+                      src="https://img.icons8.com/ios/30/new-post--v1.png"
+                      alt="new-post--v1"
+                    />
+                  </div>
+                  <span className="mt-2">greenloverscare@gmail.com</span>
+                </a>
               </div>
             </div>
           </div>
