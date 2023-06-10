@@ -19,7 +19,7 @@ const Index = () => {
           href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
           target="_blank"
         >
-          <div className="">
+          <div className="mb-2">
             <Image
               src={indoor}
               alt="Image 1"
@@ -28,7 +28,7 @@ const Index = () => {
               height={650}
             />
           </div>
-          <div className="">
+          <div className="mb-2">
             <Image
               src={outdoor}
               alt="Image 1"
@@ -37,7 +37,7 @@ const Index = () => {
               height={650}
             />
           </div>
-          <div className="">
+          <div className="mb-2">
             <Image
               src={vertical}
               alt="Image 1"
@@ -46,7 +46,7 @@ const Index = () => {
               height={650}
             />
           </div>
-          <div className="">
+          <div className="mb-2">
             <Image
               src={balcony}
               alt="Image 1"
@@ -55,7 +55,7 @@ const Index = () => {
               height={650}
             />
           </div>
-          <div className="">
+          <div className="mb-2">
             <Image
               src={terrance}
               alt="Image 1"
@@ -64,7 +64,7 @@ const Index = () => {
               height={650}
             />
           </div>
-          <div className="">
+          <div className="mb-2">
             <Image
               src={office}
               alt="Image 1"
