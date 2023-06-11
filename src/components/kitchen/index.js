@@ -16,7 +16,7 @@ const Index = () => {
         <a
           href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
           target="_blank"
-          className="border border-green-600 px-1 sm:px-4 py-2  md:py-3 text-green-500 font-semibold mt-3 h-8 md:h-14 text-sm sm:text-sm md:text-2xl"
+          className="border border-green-600 px-1 sm:px-4 py-1.5  md:py-3 text-green-500 font-semibold mt-3 h-8 md:h-14 text-sm sm:text-sm md:text-2xl"
         >
           Setup Now
         </a>
