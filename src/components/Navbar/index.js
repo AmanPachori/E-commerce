@@ -228,7 +228,7 @@ const Index = () => {
                 target="_blank"
                 className="px-4 mb-2 mt-2"
               >
-                Gardener
+                Book a Gardener
               </a>
               <a
                 href="https://docs.google.com/forms/d/1chKZkUVosMzKqoUbDjQXZqEgeMrXw5utWKwT559_POc/viewform?edit_requested=true"
