@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <NextSeo title="" description="" />
+        {/* <NextSeo
+          title="Home Page Title"
+          description="Home page description of the page"
+        /> */}
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
