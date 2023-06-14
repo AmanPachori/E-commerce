@@ -15,10 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <NextSeo
-          title="Simple Usage Example"
-          description="A short description goes here."
-        />
+        <NextSeo title="" description="" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
