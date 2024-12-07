@@ -11,7 +11,7 @@ const Index = () => {
             className="m-2 p-3 bg-gray-100 rounded w-250"
           >
             <a
-              href="https://api.whatsapp.com/send?phone=919306308583&text=&source=&data="
+              href="https://api.whatsapp.com/send?phone=919588771635&text=&source=&data="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -22,7 +22,7 @@ const Index = () => {
                 />
               </div>
             </a>
-            <span className="mt-2">9306308583</span>
+            <span className="mt-2">9588771635</span>
           </div>
           <div
             style={{ width: "250px" }}
@@ -35,7 +35,7 @@ const Index = () => {
                   alt="new-post--v1"
                 />
               </div>
-              <span className="mt-2">greenloverscare@gmail.com</span>
+              <span className="mt-2">kuldeepmangla2002@gmail.com</span>
             </a>
           </div>
         </div>
