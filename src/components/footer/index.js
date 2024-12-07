@@ -88,7 +88,7 @@ const Index = () => {
           </div> */}
 
           <a
-            href="https://api.whatsapp.com/send?phone=919306308583&text=&source=&data="
+            href="https://api.whatsapp.com/send?phone=919588771635&text=&source=&data="
             target="_blank"
             className="bg-green-500 my-2 text-white py-2 px-4 "
           >
