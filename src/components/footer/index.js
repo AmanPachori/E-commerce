@@ -19,7 +19,7 @@ const Index = () => {
             <a className="text-sm my-1 text-gray-500">
               kuldeepmangla2002@gmail.com
             </a>
-            <a className="text-sm my-1 text-gray-500">+919306308583</a>
+            <a className="text-sm my-1 text-gray-500">+919588771635</a>
             <p className="text-sm my-1 text-gray-500">
               ABV-IIITM, Gwalior, Madhya Pradesh, 474015
             </p>
