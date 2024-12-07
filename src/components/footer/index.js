@@ -17,7 +17,7 @@ const Index = () => {
           />
           <div className="mt-2 flex flex-col md:text-left text-center">
             <a className="text-sm my-1 text-gray-500">
-              greenloverscare@gmail.com
+              kuldeepmangla2002@gmail.com
             </a>
             <a className="text-sm my-1 text-gray-500">+919306308583</a>
             <p className="text-sm my-1 text-gray-500">
